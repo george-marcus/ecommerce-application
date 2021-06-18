@@ -1,0 +1,29 @@
+Started by user George Marcus
+Running as SYSTEM
+Building in workspace C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\Ecommerce Application
+The recommended git tool is: NONE
+using credential c6438013-f578-4bfa-ac0b-e7003b92281a
+using credential c6438013-f578-4bfa-ac0b-e7003b92281a
+ > git.exe rev-parse --resolve-git-dir C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\Ecommerce Application\.git # timeout=10
+Fetching changes from 2 remote Git repositories
+ > git.exe config remote.origin.url https://github.com/george-marcus/ecommerce-application.git # timeout=10
+Fetching upstream changes from https://github.com/george-marcus/ecommerce-application.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.31.1.windows.1'
+using GIT_SSH to set credentials 
+ > git.exe fetch --tags --force --progress -- https://github.com/george-marcus/ecommerce-application.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin1.url https://github.com/george-marcus/ecommerce-application.git # timeout=10
+Fetching upstream changes from https://github.com/george-marcus/ecommerce-application.git
+using GIT_SSH to set credentials 
+ > git.exe fetch --tags --force --progress -- https://github.com/george-marcus/ecommerce-application.git +refs/heads/*:refs/remotes/origin1/* # timeout=10
+Seen branch in repository origin/main
+Seen branch in repository origin1/main
+Seen 2 remote branches
+ > git.exe show-ref --tags -d # timeout=10
+Checking out Revision ce29458f28b087ccd9b7e67f9c41077c4a367efc (origin1/main, origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f ce29458f28b087ccd9b7e67f9c41077c4a367efc # timeout=10
+Commit message: "added project files and Splunk screenshots"
+ > git.exe rev-list --no-walk ce29458f28b087ccd9b7e67f9c41077c4a367efc # timeout=10
+ > git.exe rev-list --no-walk ce29458f28b087ccd9b7e67f9c41077c4a367efc # timeout=10
+Finished: SUCCESS
